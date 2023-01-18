@@ -4,4 +4,6 @@ O atual projeto busca produzir uma aplicação web baseada em modelos atualizave
 
 ## Como iniciar o ambiente:
 
-Você pode inicializar o projeto facilmente. Basta clonar o repositório, e usar o **Docker** com `docker-compose up`.
+Primeiramente, será necessário realizar a conecção dos dados do arquivo .zip com um banco de dados Postgres. A etapa de conecção pode ser realizada baseando-se no seguinte video: https://www.youtube.com/watch?v=Hhbiup59NYE.
+
+Após o set up da conecção com o banco de dados Postgres. Você pode inicializar o projeto facilmente. Basta inicializar o **docker** com a expressão `docker-compose up`.
